@@ -1,0 +1,21 @@
+.projects{
+  position: relative;
+  padding-top: 6em;
+  background: #b0c0d1;
+  box-shadow: inset 0px 7px 6px 0px white;
+
+  .project-title{
+    font-size: 2em;
+    font-weight: 600;
+    display: block;
+    color: #52597a;
+    text-shadow: 1px 1px 1px white;
+  }
+
+  .project-languages{
+    font-size: 3em;
+    letter-spacing: 1em;
+    color: #525993;
+    text-shadow: 1px 1px 1px white;
+  }
+}
