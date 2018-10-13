@@ -4,18 +4,54 @@
   background: #b0c0d1;
   box-shadow: inset 0px 7px 6px 0px white;
 
-  .project-title{
-    font-size: 2em;
-    font-weight: 600;
-    display: block;
-    color: #52597a;
-    text-shadow: 1px 1px 1px white;
-  }
+  .projects-body{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    margin: 5% 10%;
 
-  .project-languages{
-    font-size: 3em;
-    letter-spacing: 1em;
-    color: #525993;
-    text-shadow: 1px 1px 1px white;
+    .project{
+      padding: 5%;
+    background: white;
+    border-radius: 5px;
+
+    .project-title{
+      font-size: 2em;
+      font-weight: 600;
+      display: block;
+      color: #52597a;
+      text-shadow: 1px 1px 1px white;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    .project-img img{
+      height: 300px;
+      width: 500px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 5px black;
+      border: 2px solid #525993;
+      margin-bottom: 2em;
+    }
+
+    .project-languages{
+      font-size: 3em;
+      letter-spacing: 1em;
+      color: #525993;
+      text-shadow: 1px 1px 1px white;
+      text-align: center;
+      margin-bottom: .5em;
+      }
+
+      .project-description{
+        letter-spacing: 1px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        color: #323135;
+        margin-bottom: 1em;
+      }
+    }
   }
 }
