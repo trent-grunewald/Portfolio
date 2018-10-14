@@ -1,6 +1,5 @@
 .projects{
   position: relative;
-  padding-top: 6em;
   background: #b0c0d1;
   box-shadow: inset 0px 7px 6px 0px white;
 
@@ -9,7 +8,7 @@
     grid-gap: 5px;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
-    margin: 5% 10%;
+    padding: 5% 10%;
 
     .project{
       padding: 5%;
@@ -33,6 +32,7 @@
       box-shadow: 1px 1px 5px black;
       border: 2px solid #525993;
       margin-bottom: 2em;
+      cursor: pointer;
     }
 
     .project-languages{
@@ -42,6 +42,11 @@
       text-shadow: 1px 1px 1px white;
       text-align: center;
       margin-bottom: .5em;
+
+        img{
+          margin-right: 1em;
+          height: 40px;
+        }
       }
 
       .project-description{
@@ -51,6 +56,26 @@
         line-height: 1.5;
         color: #323135;
         margin-bottom: 1em;
+      }
+
+      .project-buttons {
+        text-align: center;
+
+          button{
+          border: none;
+          padding: 10px;
+          border-radius: 5px;
+          background: #525993;
+          text-align: center;
+          margin: 10px;
+
+          a{
+            text-decoration: none;
+            font-weight: 600;
+            color: white;
+            letter-spacing: 1px;
+          }
+        }
       }
     }
   }

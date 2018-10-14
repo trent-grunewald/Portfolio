@@ -9,7 +9,8 @@
 
 .nav{
   letter-spacing: 2px;
-  position: absolute;
+  position: fixed;
+  z-index: 7;
   top: 0;
   -ms-flex-pack: center;
   display: -ms-flexbox;
@@ -33,6 +34,11 @@
     text-align: center;
     margin: 0 5em;
 
+    .nav-scrolled{
+      background: #b0c0d1;
+      border-bottom: 5px solid white;
+    }
+
     a{
       text-decoration: none;
       letter-spacing: 5px;
@@ -42,6 +48,10 @@
       text-shadow: 0px 1px 1px #3a3846;
       font-size: 1.25em;
       font-weight: 500;
+
+      a .scrolled{
+        color: white;
+      }
 
       &:before{
         content: "";
@@ -66,7 +76,8 @@
 .social{
   display: flex;
   flex-flow: column;
-  position: absolute;
+  position: fixed;
+  z-index: 7;
   top: 42%;
   left: 2%;
 

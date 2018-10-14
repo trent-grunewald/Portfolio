@@ -1,0 +1,42 @@
+.contact{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  .contact-head{
+    padding: 5% 0 3% 0;
+    font-size: 2em;
+  }
+
+  h2{
+    color: #525993;
+    font-weight: 600;
+    text-decoration: underline;
+    text-shadow: 3px 3px 2px #080505;
+    margin-bottom: 3%;
+    font-size: 3em;
+  }
+
+  p{
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #323135;
+  }
+
+  .contact-body{
+  font-size: 1.5em;
+
+  input, textarea{
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #525993;
+    height: 5%;
+    text-align: center;
+    font-size: 1.5em;
+    color: #323135;
+    margin-bottom: 2%;
+  }
+  }
+}
