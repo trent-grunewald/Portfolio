@@ -1,22 +1,21 @@
 .about {
-  font-family: "Roboto",sans-serif;
-  height: 50%;
+  z-index: -1;
+  height: 70vh;
+  background: #030708;
+  margin-top: -20vh;
   position: relative;
-  padding-top: 6em;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  padding-top: 20vh;
 
   .about-body{
     width: 60%;
     margin: 0 20%;
-    background: #b0c0d1;
-    border: 5px solid #525993;
-    border-radius: 5px;
-    height: 75%;
     padding: 2.65% 60px;
 
     .sexy-pic{
       height: 200px;
       float: left;
-      border: 4px groove #535986;
+      border: 5px solid #b0aeb7;
       border-radius: 5px;
     }
 
@@ -25,7 +24,7 @@
         font-weight: 600;
         display: block;
         text-align: center;
-        color: #52597a;
+        color: #28526c;
         text-shadow: 1px 1px 1px white;
       }
 
@@ -34,16 +33,17 @@
       text-align: center;
       padding: 0 0 1em 0;;
       font-size: .65em;
+      color: #4d83a0;
       }
 
       .me-description{
         display: inline-block;
         width: 70%;
-        font-weight: 500;
+        font-weight: 600;
         margin: 0 6%;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         line-height: 1.5;
-        color: #323135;
+        color: #b0aeb7;
       }
     }
   }
