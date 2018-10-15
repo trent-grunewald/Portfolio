@@ -1,60 +1,70 @@
 .projects{
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-  padding-top: -20vh;
+  // clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  // padding-top: -20vh;
   background: url(https://www.kibrissondakika.com/wp-content/uploads/2015/12/sagnak_yagmur_.jpg);
-  margin-top: -21vh;
-  z-index: -2;
-  padding-top: 25vh;
+  // margin-top: -21vh;
+  // z-index: -2;
+  // padding-top: 25vh;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
 
   .projects-body{
     display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 1fr 1fr;
     padding: 5% 10%;
+
+    #p1{
+      background: url("/images/dls-thumb.jpg")center center no-repeat;
+      background-size: cover;
+    }
+
+    #p2{
+      background: url("/images/bnb-thumb.jpg")center center no-repeat;
+      background-size: cover;
+    }
+    
+    #p3{
+      background: url("/images/os-thumb.jpg")center center no-repeat;
+      background-size: cover;
+    }
+
+    #p4{
+      background: url("/images/os-thumb.jpg")center center no-repeat;
+      background-size: cover;
+    }
 
     .project{
       padding: 5%;
     background: white;
-    border-radius: 5px;
+    height: 400px;
+    min-width: 300px;
+    position: relative;
+    transition: all .5s ease-in-out;
+
+    &-hover{
+      position: absolute;
+      background: white center center no-repeat;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background-size: cover;
+      opacity: 0;
+      transition: all .5s ease-in-out;
+
+      &:hover {
+        opacity: 0.9;
+        padding: 15% 5%;
+      }
+    }
 
     .project-title{
       font-size: 2em;
       font-weight: 600;
       display: block;
-      color: #52597a;
-      text-shadow: 1px 1px 1px white;
+      color: #28526b;
       text-align: center;
       margin-bottom: 1em;
     }
-
-    .project-img img{
-      height: 300px;
-      width: 500px;
-      border-radius: 5px;
-      box-shadow: 1px 1px 5px black;
-      border: 2px solid #525993;
-      margin-bottom: 2em;
-      cursor: pointer;
-    }
-
-    .project-languages{
-      font-size: 3em;
-      letter-spacing: 1em;
-      color: #525993;
-      text-shadow: 1px 1px 1px white;
-      text-align: center;
-      margin-bottom: .5em;
-
-        img{
-          margin-right: 1em;
-          height: 40px;
-        }
-      }
 
       .project-description{
         letter-spacing: 1px;
@@ -72,7 +82,7 @@
           border: none;
           padding: 10px;
           border-radius: 5px;
-          background: #525993;
+          background: #285269;
           text-align: center;
           margin: 10px;
 

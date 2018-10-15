@@ -1,21 +1,22 @@
 .about {
-  z-index: -1;
-  height: 70vh;
-  background: #030708;
-  margin-top: -20vh;
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-  padding-top: 20vh;
+  // z-index: -1;
+  // height: 70vh;
+  background: #fff;
+  // margin-top: -20vh;
+  // position: relative;
+  // clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  // padding-top: 20vh;
 
   .about-body{
-    width: 60%;
-    margin: 0 20%;
-    padding: 2.65% 60px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7% 0;
 
     .sexy-pic{
       height: 200px;
       float: left;
-      border: 5px solid #b0aeb7;
+      border: 5px solid #28526b;
       border-radius: 5px;
     }
 
@@ -23,14 +24,14 @@
         font-size: 2em;
         font-weight: 600;
         display: block;
-        text-align: center;
+        margin-left: 37%;
         color: #28526c;
         text-shadow: 1px 1px 1px white;
       }
 
       .me{
         display: block;
-      text-align: center;
+        margin-left: 46%;
       padding: 0 0 1em 0;;
       font-size: .65em;
       color: #4d83a0;
@@ -43,7 +44,49 @@
         margin: 0 6%;
         letter-spacing: 1.5px;
         line-height: 1.5;
-        color: #b0aeb7;
+        color: #a0a0a0;
       }
+      .languages{
+        .languages-head{
+          margin: 3%;
+          text-align: center;
+          font-size: 2em;
+          font-weight: 600;
+          color: #28526b;
+        }
+        .current-languages{
+          font-size: 50px;
+          color: #28526b;
+          text-align: center;
+          letter-spacing: 1em;
+        }
+        img{
+          height: 50px;
+        }
+    }
     }
   }
+
+  @media only screen and (max-width: 520px) {
+    .about{
+      .about-body{
+        width: 100%;
+        .sexy-pic{
+          margin: 10% 25%;
+        }
+        .about-me{
+          clear: both;
+        
+            .about-intro{
+              font-size: 1.25em;
+            }
+
+            .me-description{
+              width: 100%;
+              letter-spacing:0;
+              margin-bottom: 5em;
+            }
+          }
+        }
+      }
+    }
