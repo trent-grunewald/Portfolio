@@ -8,6 +8,20 @@
   <title>Trent Grunewald</title>
 </head>
 <body>
+   <!-- -------------------------------NAV--- -->
+   <nav class="nav">
+      <div class="logo"></div> 
+        <a href="#about" class="nav-item">My Story</a>  
+        <a href="#projects" class="nav-item">Projects</a>  
+        <a href="#contact" class="nav-item">Contact</a>  
+        <div class="social-nav">
+          <a href="https://www.linkedin.com/in/trent-grunewald/" class="social-item nav-item" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/trent-grunewald/" class="social-item nav-item" target="_blank"><i class="fab fa-github-square"></i></a>
+          <a href="https://www.instagram.com/trenttagram/" class="social-item nav-item" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:trent@trentgrunewald.com" class="social-item nav-item" target="_blank" title="Send Me an Email"><i class="far fa-envelope"></i></a>
+        </div>
+      </nav>
+    <!-- ---------------------------------------NAV END--- -->
   <!-- ------------------------LANDING PAGE --------- -->
     <section class="landing">
             <!-- background image blurred------------------ -->
@@ -29,20 +43,6 @@
             </li>
           </ul>
           <!-- --------------------------SOCIAL MENU END -->
-       <!-- -------------------------------NAV--- -->
-       <ul class="nav">
-          <li class="nav-item">
-          <a href="#about">My Story</a>  
-          </li>
-          <li class="nav-item">
-              <a href="#projects">Projects</a>  
-          </li>
-          <li class="nav-item">
-            <a href="#contact">Contact</a>  
-          </li>
-        </ul>
-      <!-- ---------------------------------------NAV END--- -->
-
   <!-- --------------------------LANDING BODY -->
       <div class="landing-body">
   
@@ -67,6 +67,20 @@
         <span class="me-description">
         I am a passionate and extremely motivated web developer who fell in love with programming while working in game Development. I enjoy learning new technologies and frameworks and am hoping to make a career of it. If I am not on my computer studying, or working on side-projects, I am usually relaxing with my fiance, playing a game, drawing, or watching a movie.<br/>Web-development is my passion, and I am looking forward to join a dedicated team where I can expand my knowledge and hopefully help others do the same.
       </span>
+      <div class="languages">
+        <div class="languages-head">Current Tools</div>
+        <div class="current-languages">
+     <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i><i class="fab fa-php"></i><i class="fab fa-sass"></i><i class="fab fa-gulp"></i><i class="fab fa-npm"></i><img src="/images/webpack.png"><img src="/images/babel.png"><img src="/images/ps.png">
+    </div>
+    </div>
+
+        <div class="languages-head">Studying</div>
+        <div class="studying-languages">
+     <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>
+             
+              </div>
+            </div>
+          </div>    
         </div>
       </div>
   <!-- ------------------------ABOUT BODY END -->
@@ -76,35 +90,49 @@
   <!-- ------------------------PROJECTS PAGE START -->
 <section class="projects" id="projects">
     <div class="projects-body">
-      <div class="project">
+      <div class="project" id="p1">
+        <div class="project-hover">
         <div class="project-title">Direct Line Service</div>
-        <div class="project-img"><a href="/images/dls.png" target="_blank"><img src="/images/dls-thumb.jpg" alt="A screenshot of the https://DirectLineService.com website"></a></div>
-        <div class="project-languages"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"><img src="/images/ps.png"></i></div>
         <div class="project-description">Created the Direct Line Service website and logo, using HTML, CSS JavaScript and photoshop. I then transferred the domain and emails from SquareSpace to HostGator using cPanel.</div>
         <div class="project-buttons">
           <button><a href="http://DirectLineService.com" target='_blank'>View Website</a></button>
+          <button><a href="/images/dls.png" target='_blank'>View Image</a></button>
           <button><a href="https://github.com/trent-grunewald/dls" target='_blank'>View Code</a></button>
         </div>
       </div>
-      <div class="project">
+      </div>
+      <div class="project" id="p2">
+          <div class="project-hover">
         <div class="project-title">Beans N' Burlap</div>
-        <div class="project-img"><a href="/images/bnb.png" target="_blank"><img src="/images/bnb-thumb.jpg" alt="A screenshot of my coffee shop website design"></a></div>
-        <div class="project-languages"><img src="/images/bootstrap.png"><i class="fab fa-css3-alt"></i><img src="/images/jquery.jpg"><img src="/images/ps.png"></div>
-        <div class="project-description">A personally designed coffee-house and eatery website, using Bootstrap, Custom CSS, Jquery and some photo edits with Photoshop.</div>
+        <div class="project-description">I personally designed this website for a fake coffee-house and eatery, I used Bootstrap, Custom CSS, Jquery and some Photoshop for some photo edits.</div>
         <div class="project-buttons">
           <button><a href="https://trent-grunewald.github.io/Beans-N-Burlap/" target='_blank'>View Website</a></button>
+          <button><a href="/images/bnb.png" target='_blank'>View Image</a></button>
           <button><a href="https://github.com/trent-grunewald/Beans-N-Burlap" target='_blank'>View Code</a></button>
         </div>
+        </div>
       </div>
-      <div class="project">
+      <div class="project" id="p3">
+          <div class="project-hover">
         <div class="project-title">Over-Seasoned</div>
-        <div class="project-img"><a href="/images/os.png" target="_blank"><img src="/images/os-thumb.jpg" alt="A screenshot of Over-Seasoned steakhouse."></a></div>
-        <div class="project-languages"><i class="fab fa-js-square"></i><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-sass"></i><i class="fab fa-gulp"></i><i class="fab fa-npm"></i><img src="/images/webpack.png"><img src="/images/babel.png"><img src="/images/ps.png"></div>
         <div class="project-description">My first attempt at HyperApp... I used WebPack, GULP, NPM, Babel, JS(es6), SASS and some Photoshop for the custom images. </div>
         <div class="project-buttons">
           <button><a href="http://DirectLineService.com" target='_blank'>View Website</a></button>
+          <button><a href="/images/os.png" target='_blank'>View Image</a></button>
           <button><a href="https://github.com/trent-grunewald/dls" target='_blank'>View Code</a></button>
         </div>
+        </div>
+      </div>
+      <div class="project" id="p4">
+          <div class="project-hover">
+        <div class="project-title">Over-Seasoned</div>
+        <div class="project-description">My first attempt at HyperApp... I used WebPack, GULP, NPM, Babel, JS(es6), SASS and some Photoshop for the custom images. </div>
+        <div class="project-buttons">
+          <button><a href="http://DirectLineService.com" target='_blank'>View Website</a></button>
+          <button><a href="/images/os.png" target='_blank'>View Image</a></button>
+          <button><a href="https://github.com/trent-grunewald/dls" target='_blank'>View Code</a></button>
+        </div>
+      </div>
       </div>
       
     </div>
