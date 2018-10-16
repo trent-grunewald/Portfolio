@@ -2,22 +2,20 @@
   z-index: -1;
   height: 100vh;
   background: #fff;
-  margin-top: -20vh;
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-  padding-top: 20vh;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 70%, 70% 91%, 32% 66%, 0 82%, 0 0);
 
   .about-body{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding: 7% 0;
+    padding: 3% 0;
 
     .sexy-pic{
       height: 200px;
       float: left;
-      border: 5px solid #28526b;
+      border: 5px solid #ffffff;
       border-radius: 5px;
+      box-shadow: 0 0 50px #ff62c0;;
     }
 
       .about-intro{
@@ -25,8 +23,7 @@
         font-weight: 600;
         display: block;
         margin-left: 37%;
-        color: #28526c;
-        text-shadow: 1px 1px 1px white;
+        color: #7ba4fa;
       }
 
       .me{
@@ -34,7 +31,7 @@
         margin-left: 46%;
       padding: 0 0 1em 0;;
       font-size: .65em;
-      color: #4d83a0;
+      color: #ff67cd;
       }
 
       .me-description{
@@ -44,7 +41,7 @@
         margin: 0 6%;
         letter-spacing: 1.5px;
         line-height: 1.5;
-        color: #a0a0a0;
+        color: #272727
       }
       .languages{
         .languages-head{
@@ -52,20 +49,48 @@
           text-align: center;
           font-size: 2em;
           font-weight: 600;
-          color: #28526b;
-        }
-        .current-languages{
-          font-size: 50px;
-          color: #28526b;
-          text-align: center;
-          letter-spacing: 1em;
-        }
-        img{
-          height: 50px;
+          color: #7ba4fa;
         }
     }
     }
   }
+  .current-languages{
+    font-size: 50px;
+    color: #ff62c0;
+    text-align: center;
+    letter-spacing: 1em;
+    padding-left: 1em;
+    text-shadow: 2px 2px 2px #78a6fb;
+
+    img{
+      height: 45px;
+      margin-bottom: -4;
+      margin-right: 1em;
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .about{
+      height: 140vh;
+      .about-body{
+        .about-intro{
+          text-align: center;
+          margin: .25em 0;
+        }
+        .sexy-pic{
+          float: none;
+          margin-left: 40%;
+        }
+        .about-me{
+          .me-description{
+            margin-left: 15%;
+          }
+         
+        }
+      }
+    }
+  }
+
 
   @media only screen and (max-width: 520px) {
     .about{
