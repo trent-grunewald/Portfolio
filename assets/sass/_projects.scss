@@ -1,12 +1,14 @@
 .projects{
-  // clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
-  // padding-top: -20vh;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  padding-top: -20vh;
   background: url(https://www.kibrissondakika.com/wp-content/uploads/2015/12/sagnak_yagmur_.jpg);
-  // margin-top: -21vh;
-  // z-index: -2;
-  // padding-top: 25vh;
+  margin-top: -21vh;
+  z-index: -2;
+  padding-top: 25vh;
   background-size: cover;
   background-attachment: fixed;
+  height: 100%;
 
   .projects-body{
     display: grid;
