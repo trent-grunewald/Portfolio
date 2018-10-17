@@ -13,10 +13,12 @@
 
     .project-border{
     border-radius: 5px 0 0 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 
     .project-image{
       height: 100%;
-      width: 100%;
     }
     }
 
