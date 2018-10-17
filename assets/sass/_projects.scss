@@ -1,8 +1,8 @@
 .projects{
-  margin-top: -370px;
+  margin-top: -350px;
   z-index: -2;
   padding: 50vh 0;
-  background: url(/images/shape.jpg) center center fixed no-repeat;
+  background: linear-gradient(#01abff, white);
   background-size: cover;
 
   .projects-body{
@@ -13,12 +13,10 @@
 
     .project-border{
     border-radius: 5px 0 0 5px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
 
     .project-image{
       height: 100%;
+      width: 100%;
     }
     }
 

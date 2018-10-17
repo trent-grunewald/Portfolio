@@ -1,3 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
 $ff-body: 'Roboto', sans-serif;
+
+.title{
+  margin: 3% 0;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 3px 3px #e527e7;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.language{
+  height: 50px;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 3px 2px 2px #f31fe5;
+}

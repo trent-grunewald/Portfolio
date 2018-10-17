@@ -3,6 +3,7 @@
 @import 'variables';
 @import "landing";
 @import "about";
+@import "tools";
 @import "projects";
 @import "contact";
 
@@ -21,6 +22,12 @@ html body {
 h1 {
   font-weight: 100;
   font-size: 50px;
+}
+
+.section-container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home {

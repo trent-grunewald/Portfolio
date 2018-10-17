@@ -19,8 +19,9 @@
   
   .nav-item{
     margin-left: 20%;
-    color: #272727;
+    color: #9026aa;
     text-decoration: none;
+    font-weight: 600;
     transition: .5s ease-in-out;
 
     &:hover{
@@ -64,7 +65,7 @@
 }
 
   .landing-image{
-    background: url(/images/shape.jpg);
+    background: url(/images/back.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 120%;
@@ -75,7 +76,7 @@
 .landing-body{
   font-weight: bold;
   position: absolute;
-  top: 58%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -86,8 +87,8 @@
     transition: 2s;
     font-size: 5em;
     letter-spacing: 5px;
-    color: #7ba4fa;
-    text-shadow: 2px 2px 2px #da30a7;
+    color: #0fe4f9;
+    text-shadow: 4px 4px 2px #8538a8;
   }
 
   .web{
@@ -96,7 +97,7 @@
     font-size: 3em;
     letter-spacing: 5px;
     color: #ffffff;
-    text-shadow: 2px 2px 2px #a53198;
+    text-shadow: 3px 3px 2px #8539a8;
       }
     }
 
