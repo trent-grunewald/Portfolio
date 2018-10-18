@@ -8,6 +8,8 @@
 }
 
 .nav{
+  background: #e5e2eb;
+  box-shadow: inset -4px -6px 20px 2px #faf5fb;
   padding: 20px;
   letter-spacing: 2px;
   display: flex;
@@ -19,13 +21,13 @@
   
   .nav-item{
     margin-left: 20%;
-    color: #9026aa;
+    color: $fc-black;
     text-decoration: none;
     font-weight: 600;
     transition: .5s ease-in-out;
 
     &:hover{
-    box-shadow: 1px 1px 6px 5px black;
+    box-shadow: 1px 1px 6px 5px $fc-black;
     }
   
   }
@@ -65,11 +67,10 @@
 }
 
   .landing-image{
-    background: url(/images/back.jpg);
+    background: url(/images/back3.jpg)center center no-repeat;;
     background-size: cover;
     background-attachment: fixed;
     height: 120%;
-  clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 70%, 70% 91%, 32% 66%, 0 82%, 0 0);
   }
 
 
@@ -87,8 +88,8 @@
     transition: 2s;
     font-size: 5em;
     letter-spacing: 5px;
-    color: #0fe4f9;
-    text-shadow: 4px 4px 2px #8538a8;
+    color: #9ca3ac;
+    text-shadow: 4px 4px 2px #0f0f27;
   }
 
   .web{
@@ -96,8 +97,8 @@
     margin-top: 2%;
     font-size: 3em;
     letter-spacing: 5px;
-    color: #ffffff;
-    text-shadow: 3px 3px 2px #8539a8;
+    color: #d1ced5;
+    text-shadow: 3px 3px 2px $fc-black;
       }
     }
 
@@ -117,7 +118,7 @@
       .web{
         font-size: 2em;
         color: #a5a5a5;
-        text-shadow: 2px 2px 10px #000000;
+        text-shadow: 2px 2px 10px $fc-black;
           }
         }
       }
@@ -130,11 +131,11 @@
 
   .nav {
     flex-flow: column wrap;
-    color: black;
+    color: $fc-black;
     text-shadow: none;
 
     a {
-      color: black;
+      color: $fc-black;
     }
     .nav-item {
       margin:0 1em;
@@ -165,7 +166,7 @@
       display: flex;
       line-height: 4;
       background: white;
-      color: black;
+      color: $fc-black;
       text-decoration: none;
       width: 50%;
       padding-left: 24px;
@@ -179,7 +180,7 @@
         width: 8rem;
         height: 2px;
         top: 2.5em;
-        background-color: #040404;
+        background-color: $fc-black;
         visibility: hidden;
         transform: scaleX(0);
         transition: all 0.3s ease-in-out 0s;
@@ -203,7 +204,7 @@
       .web{
         font-size: 1em;
         color: #a5a5a5;
-        text-shadow: 2px 2px 10px #000000;
+        text-shadow: 2px 2px 10px $fc-black;
           }
         }
       }

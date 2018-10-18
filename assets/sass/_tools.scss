@@ -1,45 +1,98 @@
 .tools{
-  margin-top: -350px;
-  z-index: -2;
-  padding: 50vh 0;
-  background: #00abff;
+  background: url(/images/back2.jpg);
   background-size: cover;
+  background-attachment: fixed;
 
   .section-container{
-    background: linear-gradient(#01abff, #01abff, #ea12fb);
-    margin-top: -50vh;
-    position: relative;
-    border-radius: 50px;
-    box-shadow: 17px 17px white;
-    padding: 3%;
 
-    .columns{
-        display: flex;
-      }
-      .column{
+    .cards-container{
+      display: flex;
+      flex-flow: row;
+  
+      .card{
+        background: $fc-black;
+        border: 15px solid #ffffff;
         text-align: center;
+        width: 33.33%;
+        padding: 2%;
+        color: #faf5fb;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+
+    .designer-bubble{
+      background: radial-gradient(#f35879, #f22c7b, #ef1076);
+      height: 85vh;
+      border-radius: 50%;
+      border: 15px solid #ffffff;
+      width: 65%;
+      text-align: center;
+      padding: 5%;
+      color: white;
+      font-size: 1.25rem;
+      text-shadow: 4px 1px 6px #0613b7;
+      font-weight: 500;
+      line-height: 1.5;
+
+      .title, i{
+        text-shadow: 5px 4px #0613b7;
       }
     }
 
-    .previous-employers{
+    .front-end-bubble{
+      background: radial-gradient(#b10df3, #880ae2, #5e09e4);
+      box-shadow: -20px 18px 0px #1e05a9;
+      height: 85vh;
+      border-radius: 50%;
+      width: 65%;
       text-align: center;
-      padding: 5% 0;
-      font-size: 3em;
-      text-decoration: underline;
-      text-shadow: 3px 3px #e527e7;
-      font-weight: 600;
-      color: #ffffff;
+      padding: 5%;
+      color: white;
+      font-size: 1.25rem;
+      text-shadow: 1px 1px 5px #010336;
+      font-weight: 500;
+      line-height: 1.5;
+      float: right;
+      margin-top: -250px;
+    }
+
+    .teammate-bubble{
+      background: radial-gradient(#02e8ff, #03aeff, #0090fb, #0135f9);
+    height: 85vh;
+    border-radius: 50%;
+    border: 10px solid #0865fa;
+    box-shadow: 20px 8px #020afd;
+    width: 65%;
+    text-align: center;
+    padding: 5%;
+    color: white;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 5px #02043f;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 200px;
     }
   }
+  
 
-  .experience{
-    margin-left: auto;
-    text-align: center;
-    margin-right: auto;
-    letter-spacing: 2em;
+    .experiences{
+      background: #121936;
+      border: 15px solid #ffffff;
+      text-align: center;
+      padding: 2%;
+      color: #faf5fb;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+}
+
+  .companies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 
     img{
-      height: 200px;
+      height: auto;
+      width: 100%;
   }
 }
 
@@ -80,3 +133,16 @@
     height: 50px;
    }
   }
+}
+
+@media only screen and (max-width: 1334px) {
+.companies{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+
+  img{
+    height: 200px;
+}
+}
+}
