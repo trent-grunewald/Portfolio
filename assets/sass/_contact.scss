@@ -1,5 +1,4 @@
 .contact{
-  width: 60%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -36,5 +35,19 @@
     color: #323135;
     margin-bottom: 2%;
   }
+  }
+}
+
+@media only screen and(max-width: 850px){
+  .contact .contact-head{
+    font-size: 1.25em;
+  }
+  
+  form{
+    margin: 1em 0;
+  }
+  .contact .contact-body input, .contact .contact-body textarea{
+  width: 100%;
+  font-size: 1em;
   }
 }

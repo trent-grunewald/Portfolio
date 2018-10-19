@@ -1,12 +1,12 @@
 .projects{
-  background: linear-gradient(#01abff, white);
+  background: #070a0f;
   background-size: cover;
 
   .projects-body{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 5% 10%;
-    grid-row-gap: 2em;
+    padding: 5% 0%;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-row-gap: 20px;
 
     .project-border{
     border-radius: 5px 0 0 5px;
@@ -14,6 +14,7 @@
     .project-image{
       height: 100%;
       width: 100%;
+      object-fit: contain;
     }
     }
 
@@ -36,7 +37,6 @@
       padding: 5%;
     background: white;
     height: 400px;
-    min-width: 300px;
     position: relative;
     }
 
@@ -71,6 +71,12 @@
         .project-paragraph{
           margin-top: 1em;
         }
+
+        .current-languages, img{
+          text-align: center;
+          margin-right: 2em;
+          letter-spacing: 2em;
+        }
       }
 
       .project-buttons {
@@ -94,3 +100,32 @@
       }
     }
   }
+
+  @media only screen and (max-width: 1445px) {
+    .projects .projects-body{
+      grid-row-gap: 0;
+
+      .project-description{
+        margin-bottom: 2em;
+      }
+    }
+    
+    }
+
+  @media only screen and (max-width: 520px) {
+    .projects .projects-body{
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+      .project-buttons{
+        margin-top: 2em;
+
+        button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+    }
+  }    
+ }
+  
