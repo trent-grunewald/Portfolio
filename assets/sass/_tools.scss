@@ -1,4 +1,7 @@
-.tools .section-container{
+.tools{ 
+background: #26304291;
+
+  .section-container{
     padding-bottom: 5em;
 
     .cards-container{
@@ -10,14 +13,14 @@
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   
       .card{
-        background: #2630428c;
+        background: #ffffff;
         box-shadow: 0px 20px 6px 0px #1d232e;
         text-align: center;
         padding: 2%;
-        color: #faf5fb;
+        color: #262c34;
         font-weight: 500;
         line-height: 1.5;
-        border: 3px solid #2a39528c;
+        border: 3px solid #58595a;
 
         .title{
           font-size: 2vw;
@@ -88,6 +91,7 @@
         font-weight: 500;
         line-height: 1.5;
     }
+  }
 }
 
   .companies{

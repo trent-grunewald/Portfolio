@@ -7,6 +7,7 @@ $ff-body: 'Roboto', sans-serif;
 $fc-blue: #39709c;
 $fc-gublu: #263042;
 $fc-black: #121936;
+$fc-white: #E7e7e7;
 
 .bg-main{
   background: url(/images/back2.jpg)center center no-repeat;
@@ -24,9 +25,8 @@ $fc-black: #121936;
 }
 
 .language{
-  height: 50px;
-  font-size: 50px;
+  height: 25px;
+  font-size: 25px;
   color: #39709c;
   text-align: center;
-  text-shadow: 3px 2px 2px #000000;
 }
