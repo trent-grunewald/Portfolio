@@ -4,6 +4,8 @@
 $ff-body: 'Roboto', sans-serif;
 
 //colors
+$fc-blue: #39709c;
+$fc-gublu: #263042;
 $fc-black: #121936;
 
 .bg-main{
@@ -16,15 +18,15 @@ $fc-black: #121936;
   margin: 3% 0;
   text-align: center;
   font-size: 3em;
-  text-shadow: 3px 3px #e527e7;
+  text-shadow: 3px 3px #000000;
   font-weight: 600;
-  color: #ffffff;
+  color: #39709c;
 }
 
 .language{
   height: 50px;
   font-size: 50px;
-  color: #ffffff;
+  color: #39709c;
   text-align: center;
-  text-shadow: 3px 2px 2px #f31fe5;
+  text-shadow: 3px 2px 2px #000000;
 }

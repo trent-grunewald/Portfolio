@@ -1,7 +1,4 @@
-.tools{
-  background: #070a0f;
-
-  .section-container{
+.tools .section-container{
     padding-bottom: 5em;
 
     .cards-container{
@@ -13,13 +10,14 @@
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   
       .card{
-        background: $fc-black;
-        border: 15px solid #ffffff;
+        background: #2630428c;
+        box-shadow: 0px 20px 6px 0px #1d232e;
         text-align: center;
         padding: 2%;
         color: #faf5fb;
         font-weight: 500;
         line-height: 1.5;
+        border: 3px solid #2a39528c;
 
         .title{
           font-size: 2vw;
@@ -82,13 +80,13 @@
   
 
     .experiences{
-      background: #121936;
-      border: 15px solid #ffffff;
-      text-align: center;
-      padding: 2%;
-      color: #faf5fb;
-      font-weight: 500;
-      line-height: 1.5;
+      background: #2630428c;
+        box-shadow: -1px 1px 20px 8px black;
+        text-align: center;
+        padding: 2%;
+        color: #faf5fb;
+        font-weight: 500;
+        line-height: 1.5;
     }
 }
 
@@ -141,7 +139,6 @@
     height: 50px;
    }
   }
-}
 
 @media only screen and (max-width: 1331px) {
   .tools .section-container .cards-container {
