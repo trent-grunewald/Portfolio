@@ -1,6 +1,6 @@
 .about {
   box-shadow: 0 0 20px 20px #070a0f;
-  background: #070a0f;
+  background: #2630428c;
   }
 
   .section-container{
@@ -8,66 +8,60 @@
   }
 
   .about-body{
+    padding: 5em 0;
+    position: relative;
+
+    .about-me{
     display: flex;
     align-items: center;
     justify-content: center;
     
     .sexy-pic{
       height: 300px;
-      border: 5px solid #273c4d;
-      border-radius: 50%;
-      box-shadow: 0px 0px 20px 20px #1c2c3b;
-      display: block;
-      margin-top: 5em;
-      margin-left: auto;
-      margin-right: auto;
+      box-shadow: -1px 1px 20px 8px black;
     }
 
     
 
       .about-intro{
         span{
-          color: #273c4d;
-          text-shadow: 2px 2px #809fb4;
+          color: #39709c;
+          text-shadow: 2px 2px 4px #070a0f;
         }
         font-size: 2em;
         font-weight: 600;
         display: block;
-        color: #809fb4;
-        text-shadow: 2px 2px #273c4d;
+        color: #000000;
+        text-shadow: 0px 0px 20px rgb(57, 112, 156);
         text-align: center;
         padding: 1em;
       }
 
       .me{
-        display: block;
-        text-align: center;
         padding: 5 0 20 0;
         font-size: .65em;
         color: #c1c1c1;
+        position: absolute;
         margin-bottom: 5em;
+        left: 97;
+        bottom: -10;
       }
 
       .description-container{
-        background: white;
-        display: block;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        padding: 2em;
-        margin-bottom: 5em;
+        padding: 20px;
 
-      .me-description{
+        .me-description{
         font-weight: 600;
         letter-spacing: 1.5px;
+        font-size: 1.25em;
         line-height: 1.5;
-        color: #273c4d;
-        text-shadow: 2px 2px #e1ebee;
-        display: block;
+        color: #ffffff;
+        text-shadow: 2px 2px #101113;
       }
     }
-  }  
+  }
+}
+
   
 
   @media only screen and (max-width: 1500px) {

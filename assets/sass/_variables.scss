@@ -6,6 +6,12 @@ $ff-body: 'Roboto', sans-serif;
 //colors
 $fc-black: #121936;
 
+.bg-main{
+  background: url(/images/back2.jpg)center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .title{
   margin: 3% 0;
   text-align: center;
