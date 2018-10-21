@@ -14,7 +14,7 @@ background: #263042ed;
   
       .card{
         background: #dedede;
-        box-shadow: 0px 20px 6px 0px #1d232e;
+        box-shadow: 0px 14px 6px 0px #1d232e;
         text-align: center;
         padding: 2%;
         color: #262c34;
@@ -22,7 +22,7 @@ background: #263042ed;
         line-height: 1.5;
         border-radius: 5px;
         .title{
-          font-size: 2vw;
+          font-size: 2em;
           padding: 1% 0;
           margin: 20px 0;
         }
@@ -33,7 +33,7 @@ background: #263042ed;
 
     .experiences{
       background: $fc-white;
-      box-shadow: -1px 1px 20px 8px black;
+      box-shadow: 0px 14px 6px 0px #1d232e;
       text-align: center;
       color: #faf5fb;
       font-weight: 500;

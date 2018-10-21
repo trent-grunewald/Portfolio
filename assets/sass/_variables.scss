@@ -17,12 +17,13 @@ $fc-white: #dedede;
 
 .title{
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 600;
   position: relative;
   color: #dedede;
   background: #283142;
   border-radius: 5px;
+  padding: .5% 0;
 }
 
 .sub-title{
@@ -47,7 +48,7 @@ i{
   line-height: 1.5;
   border-radius: 5px;
   .title{
-    font-size: 2vw;
+    font-size: 2em;
     padding: 3% 0 0 0;
     margin: 20px 0;
   }
