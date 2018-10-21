@@ -8,12 +8,12 @@ background: #26304291;
       display: grid;
       -ms-flex-flow: row;
       grid-gap: 10px;
-      padding: 10em 0;
+      padding: 10em 0 5em 0;
       grid-template-rows: auto(3,1fr);
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   
       .card{
-        background: #ffffff;
+        background: $fc-white;
         box-shadow: 0px 20px 6px 0px #1d232e;
         text-align: center;
         padding: 2%;
@@ -83,16 +83,20 @@ background: #26304291;
   
 
     .experiences{
-      background: #2630428c;
-        box-shadow: -1px 1px 20px 8px black;
-        text-align: center;
-        padding: 2%;
-        color: #faf5fb;
-        font-weight: 500;
-        line-height: 1.5;
+      background: $fc-white;
+      box-shadow: -1px 1px 20px 8px black;
+      text-align: center;
+      padding: 1%;
+      color: #faf5fb;
+      font-weight: 500;
+      line-height: 1.5;
     }
   }
 }
+
+  .experiences .title{
+    margin:3% 0 0 0;
+  }
 
   .companies{
     display: grid;
@@ -105,21 +109,6 @@ background: #26304291;
       object-fit: scale-down;
   }
 }
-
-  .languages{
-    margin-left: auto;
-    margin-right: auto;
-
-    .languages-head{
-      margin: 3% 0;
-      text-align: center;
-      font-size: 3em;
-      text-decoration: underline;
-      text-shadow: 3px 3px #e527e7;
-      font-weight: 600;
-      color: #ffffff;
-    }
-  }
 
   .current-languages{
     font-size: 50px;
@@ -135,14 +124,6 @@ background: #26304291;
     }
   }  
 
- .currently-studying{ 
-      display: flex;
-    justify-content: center;
-    align-items: center;
-  img{
-    height: 50px;
-   }
-  }
 
 @media only screen and (max-width: 1331px) {
   .tools .section-container .cards-container {

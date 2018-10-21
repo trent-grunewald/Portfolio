@@ -4,10 +4,10 @@
 $ff-body: 'Roboto', sans-serif;
 
 //colors
-$fc-blue: #39709c;
+$fc-blue: #394e73;
 $fc-gublu: #263042;
 $fc-black: #121936;
-$fc-white: #E7e7e7;
+$fc-white: #dedede;
 
 .bg-main{
   background: url(/images/back2.jpg)center center no-repeat;
@@ -19,14 +19,21 @@ $fc-white: #E7e7e7;
   margin: 3% 0;
   text-align: center;
   font-size: 3em;
-  text-shadow: 3px 3px #000000;
+  text-shadow: 0px 2px #1d232e;
   font-weight: 600;
-  color: #39709c;
+  color: #394e73;
+}
+
+.sub-title{
+  font-size: 1.5em;
+  padding: 10px;
+  font-weight: 600;
 }
 
 .language{
   height: 25px;
   font-size: 25px;
-  color: #39709c;
+  color: #394e73;
+  text-shadow: 0 1px #1d232e;
   text-align: center;
 }
