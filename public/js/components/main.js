@@ -29,6 +29,7 @@
     })
   }
 
+
   // SMOOTH SCROLL
   function smoothScroll(target, duration) {
     //target arguement variable

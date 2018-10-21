@@ -36,7 +36,7 @@
 
     .project{
       padding: 5%;
-    background: $fc-white;
+    background: white;
     height: 400px;
     position: relative;
     border-top: 3px solid $fc-dark-gray;
@@ -118,6 +118,7 @@
             color: $fc-white;
             letter-spacing: 1px;
           }
+          
         }
       }
     }
