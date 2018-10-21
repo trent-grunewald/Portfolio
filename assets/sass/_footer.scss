@@ -1,14 +1,22 @@
 .hidecc{
   height: 30vh;
+  background:$fc-white;
+  color:$fc-black;
+  display: flex;
+  flex-flow: column;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px -12px 14px black;
 }
 
 #what{
-  color: white;
-  margin-bottom: 3em;
-  margin-left: 3em;
   cursor: pointer;
-  width: 20px;
+  max-width: 20px;
   height: 50px;
+  position: absolute;
+  left: 20;
+  font-size: 20px;
   }
 
 .crabby-cat{
