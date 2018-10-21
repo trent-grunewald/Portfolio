@@ -28,3 +28,16 @@
       }
     })
   }
+
+
+  const footerClick = document.getElementById('what');
+
+  function alertFunc(){
+  const footerBG = document.getElementById('bg');
+    if(footerBG.classList.contains('.crabby-cat')){
+      footerBG.classList.replace('.crabby-cat', 'hidecc')
+    } else {
+      footerBG.classList.replace('hidecc', 'crabby-cat');
+    }
+  }
+  footerClick.addEventListener('click', alertFunc)

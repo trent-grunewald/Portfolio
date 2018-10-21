@@ -17,10 +17,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
     
     .sexy-pic{
       height: 300px;
       box-shadow: -7px 9px 6px 0px #2a323d;
+      border-radius: 5px;
     }
 
     
@@ -43,10 +45,13 @@
         padding: 5 0 20 0;
         font-size: .65em;
         color: #2f2f2e;
-        position: absolute;
-        margin-bottom: 5em;
-        left: 97;
-        bottom: -10;
+        position: relative;
+
+        span{
+          position: absolute;
+          bottom: -10px;
+          left: 90px;
+        }
       }
 
       .description-container{

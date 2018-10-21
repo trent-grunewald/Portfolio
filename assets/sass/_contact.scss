@@ -3,15 +3,17 @@
   text-align: center;
 
   .contact-head{
-    padding: 5% 0 3% 0;
+    padding: 1% 0;
     font-size: 2em;
   }
 
   h2{
-    color: #28526a;
+    color: $fc-white;
     font-weight: 600;
     margin-bottom: 3%;
     font-size: 2em;
+    background: #283142;
+    border-radius: 5px;
   }
 
   p{
@@ -27,7 +29,7 @@
   input, textarea{
     width: 50%;
     border-radius: 5px;
-    border: 2px solid #4d83a0;
+    border: 2px solid #283142;
     height: 5%;
     text-align: center;
     font-size: 1.5em;

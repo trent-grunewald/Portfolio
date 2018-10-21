@@ -23,7 +23,7 @@ background: #263042ed;
         border-radius: 5px;
         .title{
           font-size: 2vw;
-          padding: 3% 0 0 0;
+          padding: 1% 0;
           margin: 20px 0;
         }
       }
@@ -61,7 +61,7 @@ background: #263042ed;
   }
 .companies{
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: space-around;
 
   img{

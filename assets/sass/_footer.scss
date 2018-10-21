@@ -1,6 +1,16 @@
-.empty-footer{
+.hidecc{
+}
+
+#what{
+  color: white;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  }
+
+.crabby-cat{
+  transition: 7s ease-in-out;
   height: 30vh;
-  background: url(https://www.kibrissondakika.com/wp-content/uploads/2015/12/sagnak_yagmur_.jpg);
+  background: url(/images/crabbycat.jpg)center center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-position-y: bottom;
 }
