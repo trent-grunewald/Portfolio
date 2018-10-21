@@ -4,8 +4,8 @@
 $ff-body: 'Roboto', sans-serif;
 
 //colors
-$fc-blue: #394e73;
-$fc-gublu: #263042;
+$fc-blue: #374867;
+$fc-dark-blue: #171e29;;
 $fc-black: #121936;
 $fc-white: #dedede;
 
@@ -16,12 +16,13 @@ $fc-white: #dedede;
 }
 
 .title{
-  margin: 3% 0;
   text-align: center;
   font-size: 3em;
-  text-shadow: 0px 2px #1d232e;
   font-weight: 600;
-  color: #394e73;
+  position: relative;
+  color: #dedede;
+  background: #283142;
+  border-radius: 5px;
 }
 
 .sub-title{
@@ -30,10 +31,24 @@ $fc-white: #dedede;
   font-weight: 600;
 }
 
-.language{
-  height: 25px;
-  font-size: 25px;
-  color: #394e73;
-  text-shadow: 0 1px #1d232e;
+i{
+  font-size: 30px;
+  color: $fc-dark-blue;
+  margin-top: 20px;
+}
+
+.card{
+  background: #dedede;
+  box-shadow: 0px 20px 6px 0px #1d232e;
   text-align: center;
+  padding: 2%;
+  color: #262c34;
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 5px;
+  .title{
+    font-size: 2vw;
+    padding: 3% 0 0 0;
+    margin: 20px 0;
+  }
 }
