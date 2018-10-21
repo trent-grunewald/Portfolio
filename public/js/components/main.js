@@ -29,6 +29,8 @@
     })
   }
 
+
+  // SMOOTH SCROLL
   function smoothScroll(target, duration) {
     let userTarget = document.querySelector(target);
     let targetPosition = userTarget.getBoundingClientRect().top;
@@ -56,15 +58,15 @@
     requestAnimationFrame(animation);
   }
 
-  const about = document.querySelector('.about');
+  const about = document.querySelector('.aboutTarget');
   about.addEventListener('click', function(){
     smoothScroll('#about',1000);
   })
-  const projects = document.querySelector('.projects');
+  const projects = document.querySelector('.projectsTarget');
   projects.addEventListener('click', function(){
     smoothScroll('#projects',1000);
   })
-  const contact = document.querySelector('.contact');
+  const contact = document.querySelector('.contactTarget');
   contact.addEventListener('click', function(){
     smoothScroll('#contact', 1000);
   })
