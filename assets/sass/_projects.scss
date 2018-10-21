@@ -1,7 +1,7 @@
 .projects{
   background: $fc-white;
   background-size: cover;
-  box-shadow: 0 0 20px 20px #070a0f;
+  box-shadow: 0 0 20px 20px $fc-black;
 
   .projects-body{
     display: grid;
@@ -36,12 +36,12 @@
 
     .project{
       padding: 5%;
-    background: white;
+    background: $fc-white;
     height: 400px;
     position: relative;
-    border-top: 3px solid #283142;
-    border-bottom: 3px solid #283142;
-    border-left: 3px solid #283142;
+    border-top: 3px solid $fc-dark-gray;
+    border-bottom: 3px solid $fc-dark-gray;
+    border-left: 3px solid $fc-dark-gray;
     }
 
       .project-description{
@@ -55,16 +55,16 @@
         background: #fff;
         border-radius: 0 5px 5px 0;
         border-radius: 0 5px 5px 0;
-        border-top: 3px solid #283142;
-        border-bottom: 3px solid #283142;
-        border-right: 3px solid #283142;
+        border-top: 3px solid $fc-dark-gray;
+        border-bottom: 3px solid $fc-dark-gray;
+        border-right: 3px solid $fc-dark-gray;
 
         .project-title{
           text-align: center;
           font-size: 2em;
           font-weight: 600;
-          color: #ffffff;
-          background: #283142;;
+          color: $fc-white;
+          background: $fc-med-gray;
           border-radius: 5px;
           margin-bottom: .5em;
         }
@@ -81,10 +81,10 @@
 
           p{
             font-size: 1em;
-            background: #283142;
+            background: $fc-light-gray;
             border-radius: 10px;
             padding: 1px 10px;
-            color: white;
+            color: $fc-white;
             margin: 5px 5px;
        
         
@@ -107,7 +107,7 @@
             border: none;
             padding: 10px;
             border-radius: 5px;
-            background: #283142;
+            background: $fc-light-gray;
             text-align: center;
             margin: 10px;
             flex-grow: 1;
@@ -115,7 +115,7 @@
           a{
             text-decoration: none;
             font-weight: 600;
-            color: white;
+            color: $fc-white;
             letter-spacing: 1px;
           }
         }
