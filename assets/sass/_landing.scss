@@ -9,12 +9,12 @@
 .changeColor{
   transition: .7s ease-in-out;
   background: $fc-white;
-  box-shadow: 2px 2px 20px 0px $fc-dark-gray;
+  box-shadow: 2px 2px 20px 0px $fc-darkBlue;
   a{
     color:$fc-black;
   }
   .logo{
-    color:$fc-dark-gray;
+    color:$fc-darkBlue;
   }
 }
 
@@ -58,7 +58,7 @@
     span{
       position: absolute;
       top: -12;
-      background: $fc-dark-gray;
+      background: $fc-darkBlue;
       width: 35%;
       height: 220%;
       transform-origin: top;
@@ -125,11 +125,6 @@
   }
 }
 
-  .landing-image{
-    height: 120%;
-  }
-
-
 .landing-body{
   font-weight: bold;
   position: absolute;
@@ -144,8 +139,8 @@
     transition: 2s;
     font-size: 5em;
     letter-spacing: 5px;
-    color: $fc-white;
-    text-shadow: 5px 5px $fc-black;
+    color: #EBECED;
+    text-shadow: 2px 2px #101211;
 }
 
   .web{
@@ -153,8 +148,7 @@
     margin-top: 2%;
     font-size: 3em;
     letter-spacing: 5px;
-    color: $fc-light-gray;
-    text-shadow: 3px 3px $fc-dark-gray;
+    color: #00416b;
       }
     }
 

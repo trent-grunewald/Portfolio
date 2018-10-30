@@ -1,7 +1,7 @@
 .projects{
   background: $fc-white;
   background-size: cover;
-  box-shadow: 0 0 20px 20px $fc-black;
+  box-shadow: 0 0 7px 0px #0cbfef7a;
 
   .projects-body{
     display: grid;
@@ -39,9 +39,9 @@
     background: white;
     height: 400px;
     position: relative;
-    border-top: 3px solid $fc-dark-gray;
-    border-bottom: 3px solid $fc-dark-gray;
-    border-left: 3px solid $fc-dark-gray;
+    border-top: 3px solid $fc-darkBlue;
+    border-bottom: 3px solid $fc-darkBlue;
+    border-left: 3px solid $fc-darkBlue;
     }
 
       .project-description{
@@ -55,22 +55,20 @@
         background: #fff;
         border-radius: 0 5px 5px 0;
         border-radius: 0 5px 5px 0;
-        border-top: 3px solid $fc-dark-gray;
-        border-bottom: 3px solid $fc-dark-gray;
-        border-right: 3px solid $fc-dark-gray;
+        border-top: 3px solid $fc-darkBlue;
+        border-bottom: 3px solid $fc-darkBlue;
+        border-right: 3px solid $fc-darkBlue;
 
         .project-title{
           text-align: center;
           font-size: 2em;
-          font-weight: 600;
-          color: $fc-white;
-          background: $fc-med-gray;
-          border-radius: 5px;
+          color: #EBECED;
           margin-bottom: .5em;
         }
 
         .project-paragraph{
           margin-top: 1em;
+          line-height: inherit;
         }
 
         .current-languages{
@@ -81,7 +79,7 @@
 
           p{
             font-size: 1em;
-            background: $fc-light-gray;
+            background: $fc-lightBlue;
             border-radius: 10px;
             padding: 1px 10px;
             color: $fc-white;
@@ -107,7 +105,7 @@
             border: none;
             padding: 10px;
             border-radius: 5px;
-            background: $fc-light-gray;
+            background: $fc-lightBlue;
             text-align: center;
             margin: 10px;
             flex-grow: 1;

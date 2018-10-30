@@ -5,16 +5,10 @@ $ff-body: 'Roboto', sans-serif;
 
 //colors
 $fc-white: #EBECED;
-$fc-light-gray: #676765;
-$fc-med-gray: #494D4C;
-$fc-dark-gray: #2B2F32;
+$fc-lightBlue: #00d7fe;
+$fc-blue: #077ec4;
+$fc-darkBlue: #00416b;
 $fc-black: #101211;
-
-.bg-main{
-  background: url(/images/back2.jpg)center center no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 .title{
   text-align: center;
@@ -22,7 +16,7 @@ $fc-black: #101211;
   font-weight: 600;
   position: relative;
   color: $fc-white;
-  background: $fc-med-gray;
+  background: $fc-blue;
   border-radius: 5px;
   padding: .5% 0;
 }
@@ -35,7 +29,7 @@ $fc-black: #101211;
 
 i{
   font-size: 35px;
-  color: fc-dark-gray;
+  color: fc-blue;
   margin-top: 20px;
 }
 
@@ -44,7 +38,7 @@ i{
   box-shadow: 0px 20px 6px 0px $fc-black;
   text-align: center;
   padding: 2%;
-  color: fc-dark-gray;
+  color: fc-darkBlue;
   font-weight: 500;
   line-height: 1.5;
   border-radius: 5px;

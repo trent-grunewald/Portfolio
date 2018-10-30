@@ -12,7 +12,7 @@
     font-weight: 600;
     margin-bottom: 3%;
     font-size: 2em;
-    background: $fc-med-gray;
+    background: $fc-blue;
     border-radius: 5px;
   }
 
@@ -20,7 +20,7 @@
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 1.5;
-    color: $fc-light-gray;
+    color: $fc-lightBlue;
   }
 
   .contact-body{
@@ -29,17 +29,17 @@
   input, textarea{
     width: 50%;
     border-radius: 5px;
-    border: 2px solid $fc-dark-gray;
+    border: 2px solid $fc-darkBlue;
     height: 5%;
     text-align: center;
     font-size: 1.5em;
-    color: $fc-light-gray;
+    color: $fc-lightBlue;
     margin-bottom: 2%;
   }
 
   .sub{
     color:$fc-white;
-    background: $fc-light-gray;
+    background: $fc-lightBlue;
   }
   }
 }

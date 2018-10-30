@@ -25,6 +25,21 @@ h1 {
   font-size: 50px;
 }
 
+.main{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: $fc-blue;
+}
+
+.rounded{
+  padding: 8px 15px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 4px;
+  background: linear-gradient(50deg, $fc-lightBlue, $fc-blue);
+}
+
 .section-container{
   width: 70%;
   margin-left: auto;

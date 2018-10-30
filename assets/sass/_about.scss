@@ -1,6 +1,6 @@
 .about {
-  box-shadow: 0 0 20px 20px $fc-black;
-  background: $fc-white;
+  box-shadow: 0 0 7px 0px #0cbfef7a;
+  background: #fdfdfd;
   position: relative;
   }
 
@@ -20,25 +20,23 @@
     
     .sexy-pic{
       height: 300px;
-      box-shadow: -7px 9px 6px 0px $fc-dark-gray;
-      border-radius: 5px;
-      border: 3px solid $fc-dark-gray;
+      box-shadow: -8px 7px 20px 0px #00416b8c;
+      border-radius: 47% 53% 71% 29% / 71% 55% 45% 29%;
     }
 
     
 
       .about-intro{
         span{
-          color: $fc-white;
-          background: $fc-dark-gray;
+          color: #ffffff;
+          background: #0bc0ef;
           padding: 0 5px;
-          border-radius: 5px;
+          border-radius: 28% 72% 39% 61% / 64% 74% 26% 36%;
         }
         font-size: 2em;
         font-weight: 600;
         display: block;
-        color: $fc-black;
-        text-shadow: 1px 1px $fc-light-gray;
+        color: $fc-darkBlue;
         text-align: center;
         padding: 1em;
       }
@@ -46,7 +44,7 @@
       .me{
         padding: 5 0 20 0;
         font-size: .65em;
-        color: $fc-dark-gray;
+        color: $fc-darkBlue;
         position: relative;
 
         span{
@@ -58,14 +56,7 @@
 
       .description-container{
         padding: 20px;
-
-        .me-description{
-          font-weight: 600;
-          letter-spacing: 1.5px;
-          font-size: 1.25em;
-          line-height: 1.5;
-          color: $fc-black;
-      }
+        width: 60%;
     }
   }
 }
