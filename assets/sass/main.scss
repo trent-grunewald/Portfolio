@@ -18,7 +18,8 @@
 html body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
-  background: #353a48;
+  background: linear-gradient(#04d2fb, #03a6c3, #005f9e);
+  background-attachment: fixed;
 }
 
 h1 {

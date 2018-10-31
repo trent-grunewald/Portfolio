@@ -3,6 +3,8 @@ position: relative;
 
   svg{
     position: absolute;
+    height: 200vh;
+    z-index: 1;
   }
   .section-container{
     padding-bottom: 10em;

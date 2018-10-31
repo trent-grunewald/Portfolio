@@ -5,10 +5,11 @@
 
   .section-container{
     position: inherit;
+    z-index: 2;
   }
 
   .about-body{
-    padding: 5em 0;
+    padding: 2em 0;
     position: relative;
 
     .about-me{
@@ -47,7 +48,6 @@
       }
 
       .description-container{
-        padding: 20px;
         width: 60%;
     }
   }
