@@ -14,6 +14,7 @@
     color:$fc-black;
   }
   .logo{
+    transition: .7s ease-in-out;
     color:$fc-darkBlue;
   }
 }
@@ -22,9 +23,10 @@
   transition: .4s ease-in-out;
   background:transparent;
   a{
-    color: $fc-white;
+    color: $fc-gray;
   }
   .logo{
+    transition: .7s ease-in-out;
     color:transparent;
   }
 }
