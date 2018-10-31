@@ -25,4 +25,9 @@
   background: url(/images/crabbycat.jpg)center center no-repeat;
   background-size: cover;
   background-position-y: bottom;
+  display: flex;
+  flex-flow: column;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
 }
