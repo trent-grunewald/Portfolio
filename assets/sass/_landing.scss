@@ -54,7 +54,7 @@
     position: relative;
 
     &:hover{
-      color: #fff;
+      color: $fc-white;
       transform-origin: bottom;
     }
 
@@ -142,7 +142,7 @@
     transition: 2s;
     font-size: 5em;
     letter-spacing: 5px;
-    color: #EBECED;
+    color: $fc-white;
     text-shadow: 2px 2px #101211;
 }
 

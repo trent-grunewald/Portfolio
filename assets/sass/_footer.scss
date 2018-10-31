@@ -1,13 +1,12 @@
 .hidecc{
   height: 30vh;
-  background:$fc-white;
-  color:$fc-black;
+  background: $fc-white;
+  color: $fc-gray;
   display: flex;
   flex-flow: column;
   font-size: 2em;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px -12px 14px black;
 }
 
 #what{

@@ -1,7 +1,6 @@
 .projects{
-  background: white;
+  background: $fc-white;
   background-size: cover;
-  box-shadow: 0 0 7px 0px #0cbfef7a;
 
   .projects-body{
     display: grid;
@@ -36,26 +35,21 @@
 
     .project{
       padding: 5%;
-      background: white;
+      background: $fc-white;
       height: 400px;
       position: relative;
     }
 
       .project-description{
-        position: relative;
         letter-spacing: 1px;
         font-weight: 500;
-        letter-spacing: 1px;
         line-height: 1.5;
-        color: #272727;
         padding: 1em;
-        border-radius: 0 5px 5px 0;
-        border-radius: 0 5px 5px 0;
 
         .project-title{
           text-align: center;
           font-size: 2em;
-          color: #EBECED;
+          color: $fc-gray;
           margin-bottom: .5em;
         }
 
@@ -71,12 +65,9 @@
           flex-flow: wrap;
 
           p{
-            font-size: 1em;
-            background: #00416b;
             border-radius: 10px;
             padding: 1px 10px;
-            color: #EBECED;
-            margin: 5px 5px;
+            color: $fc-gray;
         
         img{
           text-align: center;
@@ -97,7 +88,7 @@
             border: none;
             padding: 10px;
             border-radius: 50px;
-            background: #0787ca;
+            background: linear-gradient(50deg, #00d7fe,#0067a9);
             text-align: center;
             margin: 10px;
             -ms-flex-positive: 1;

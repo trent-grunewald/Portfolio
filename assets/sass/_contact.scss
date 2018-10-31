@@ -1,6 +1,18 @@
 .contact{
-  margin: 10em auto;
+  padding: 10em 0;
   text-align: center;
+  position: relative;
+
+  svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .card{
+    background: $fc-white;
+    border-radius: 5px;
+  }
 
   .contact-head{
     padding: 1% 0;
@@ -8,8 +20,7 @@
   }
 
   h2{
-    color: #EBECED;
-    margin-bottom: 3%;
+    color: $fc-gray;
     font-size: 1.5em;
   }
 
@@ -17,7 +28,8 @@
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 1.5;
-    color: $fc-lightBlue;
+    color: $fc-blue;
+    padding-bottom: 2%;
   }
 
   .contact-body{
