@@ -8,6 +8,8 @@
         //targets the nav-collapse css class and replaces it with nav-item;
     collapsed.forEach(nav => nav.classList.replace('nav-collapse', 'nav-item'));
   }
+
+
   
   window.onload =_=>{
   const butt = document.querySelector('.logo');
