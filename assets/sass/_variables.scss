@@ -4,12 +4,12 @@
 $ff-body: 'Roboto', sans-serif;
 
 //colors
-$fc-white: #f7f7f7;
+$fc-white: #ebebe9;
 $fc-lightBlue: #00d7fe;
 $fc-blue: #077ec4;
-$fc-darkBlue: #07314c;
+$fc-orange:#cf653c;
 $fc-gray: #353a48;
-$fc-black: #101211;
+$fc-black: #353a48;
 
 .title{
   text-align: center;
@@ -36,7 +36,7 @@ i{
 .card{
   text-align: center;
   padding: 2%;
-  color: fc-darkBlue;
+  color: $fc-orange;
   font-weight: 500;
   line-height: 1.5;
   .title{

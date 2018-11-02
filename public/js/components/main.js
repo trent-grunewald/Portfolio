@@ -69,10 +69,15 @@
   about.addEventListener('click', function(){
     smoothScroll('#about',1000);
   })
-  const projects = document.querySelector('.projectsTarget');
-  projects.addEventListener('click', function(){
-    smoothScroll('#projects',1000);
-  })
+  const projects = document.querySelectorAll('.projectsTarget');
+  for (let i = 0; i < projects.length; i++) {
+      let test = projects[i];
+      test.addEventListener('click', function(){
+        console.log("hi")
+        smoothScroll('#projects',1000);
+      })
+  }
+ 
   const contact = document.querySelector('.contactTarget');
   contact.addEventListener('click', function(){
     smoothScroll('#contact', 1000);

@@ -1,11 +1,36 @@
 .tools{ 
 position: relative;
 
-  svg{
-    position: absolute;
-    height: 200vh;
-    z-index: 1;
+.coffeeStain{
+  position: absolute;
+  top: 50;
+  left: 50;
+
+  img{
+    height: 200px;
   }
+}
+
+.coffeeDrops{
+  top: 45%;
+  height: 500px;
+  position: absolute;
+  left: 50;
+
+  img{
+    height: 700px;
+  }
+}
+  .coffeeSplatter{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    img{
+      height: 300px;
+    }
+  }
+}
+
   .section-container{
     padding-bottom: 10em;
 
@@ -16,16 +41,6 @@ position: relative;
       padding: 10em 0 5em 0;
       grid-template-rows: auto(3,1fr);
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  
-      .card{
-        background: $fc-white;
-        text-align: center;
-        padding: 2%;
-        color: $fc-gray;
-        font-weight: 500;
-        line-height: 1.5;
-        border-radius: 5px;
-
         .title{
           font-size: 2em;
           padding: 1% 0;
@@ -33,18 +48,16 @@ position: relative;
         }
       }
     }
-  }
   
 
     .experiences{
-      background: $fc-white;
       text-align: center;
       font-weight: 500;
       line-height: 1.5;
       padding: .5%;
       border-radius: 5px;
     }
-  }
+  
 
   .companies{
     display: grid;

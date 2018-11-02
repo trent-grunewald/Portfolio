@@ -1,6 +1,27 @@
 .about {
-  background: #fdfdfd;
   position: relative;
+  box-shadow: 0 0 10px #cf653c;
+  background: #f2f2f2;
+
+  .coffee{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    z-index: 1;
+
+    img{
+      height: 400px;
+      }
+    }
+    .coffeeStain{
+      position: absolute;
+      left: -120;
+      bottom: -50px;
+  
+      img{
+        height: 250px;
+      }
+      }
   }
 
   .section-container{
@@ -19,9 +40,8 @@
     flex-flow: column;
     
     .sexy-pic{
-      height: 300px;
-      box-shadow: -8px 7px 20px 0px #00416b8c;
-      border-radius: 47% 53% 71% 29% / 71% 55% 45% 29%;
+      height: 450px;
+      transform: rotate(-20deg);
     }
 
     
@@ -29,7 +49,7 @@
       .about-intro{
         span{
           color: $fc-white;
-          background: #0bc0ef;
+          background: $fc-orange;
           padding: 0 5px;
           border-radius: 28% 72% 39% 61% / 64% 74% 26% 36%;
         }
@@ -44,7 +64,11 @@
       .me{
         padding: 5 0 20 0;
         font-size: .65em;
-        color: $fc-darkBlue;
+        color: $fc-orange;
+        position: absolute;
+        left: -50;
+        top: 50;
+        z-index: -1;
       }
 
       .description-container{

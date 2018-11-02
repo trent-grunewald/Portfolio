@@ -1,21 +1,24 @@
 .logo{
   font-weight: 600;
-  height: 32px;
+  flex: .5 1 auto;
   width: 51px;
   position: absolute;
-  top: 14px;
+  bottom: 5px;
+  font-family: 'Permanent Marker', cursive;
+  color: $fc-orange;
+  font-size: 1.5em;
 }
 
 .changeColor{
   transition: .7s ease-in-out;
   background: $fc-white;
-  box-shadow: 2px 2px 20px 0px $fc-darkBlue;
+  box-shadow: 2px 2px 20px 0px $fc-orange;
   a{
     color:$fc-black;
   }
   .logo{
     transition: .7s ease-in-out;
-    color:$fc-darkBlue;
+    color:$fc-orange;
   }
 }
 
@@ -38,8 +41,8 @@
     display: flex;
     position: fixed;
     width: 100%;
-    z-index: 7;
-    background: white;
+    z-index: 777;
+    background: #f2f2f2;
     box-shadow: 0 0 7px 0px #0cbfef7a;
 
   .social-nav{
@@ -63,7 +66,7 @@
     span{
       position: absolute;
       top: -12;
-      background: $fc-darkBlue;
+      background: $fc-orange;
       width: 35%;
       height: 220%;
       transform-origin: top;
@@ -82,7 +85,7 @@
     }
     span:nth-child(2){
       transition-delay:.15s;
-      left:17%;
+      left:15%;
     }
     span:nth-child(3){
       transition-delay:.30s;
@@ -130,23 +133,49 @@
   }
 }
 
-.landing-body{
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  
-  .name{
-    transition: 2s;
-    font-size: 5em;
-    letter-spacing: 5px;
-    color: $fc-white;
-    text-shadow: 2px 2px #101211;
+.landing{
+  background: linear-gradient(#2d547063, #2d547063),url(/img/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+
+    .landing-body{
+      padding: 0 30%;
+      text-align: center;
+      
+      .name{
+        transition: 2s;
+        font-size: 1.75em;
+        letter-spacing: 2px;
+        color: #f7f7f7;
+
+        span{
+          font-family: 'Permanent Marker', cursive;
+        color: #cf653c;
+        font-size: 1em;
+        text-shadow: 1px 1px black;
+        }
+    }
+
+    button{
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 3em;
+      background: #cf653c;
+
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.25em;
+      }
+    }
 }
+
+
 
   .web{
     transition: 2s;
@@ -163,6 +192,34 @@
       margin-right: auto;
     }
 
+    @media only screen and (max-width: 1660px) {
+      .landing-body{
+        top: 45%;
+
+        .name{
+          font-size: 4em;
+        }
+
+        .web{
+          font-size: 2em;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .landing-body{
+        top: 40%;
+
+        .name{
+          font-size: 3em;
+        }
+
+        .web{
+          font-size: 1.75em;
+        }
+      }
+    }
+
     @media only screen and (max-width: 1200px) {
       .nav{
         position: fixed;
@@ -170,17 +227,18 @@
         z-index: 7;
         background: $fc-white;
       }
-      .landing-body {
-      .name{
-        font-size: 3.5em;
-        color: $fc-white;
-      }
-    
-      .web{
-        font-size: 2em;
-          }
+      .landing-body{
+        top: 35%;
+
+        .name{
+          font-size: 2.5em;
+        }
+
+        .web{
+          font-size: 1.75em;
         }
       }
+    }
 
     
 @media only screen and (max-width: 1000px) {
