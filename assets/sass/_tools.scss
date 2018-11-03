@@ -72,16 +72,16 @@ position: relative;
 }
 
 @media only screen and (max-width: 1331px) {
-  .tools .section-container .cards-container {
-    display: block;
-  }
-.companies{
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
 
-  img{
-    height: 200px;
-}
-}
+  .tools{ 
+    .coffeeStain{
+      display: none;
+    }
+    .coffeeDrops{
+      display: none;
+    }
+      .coffeeSplatter{
+        display: none;
+    }
+  }
 }

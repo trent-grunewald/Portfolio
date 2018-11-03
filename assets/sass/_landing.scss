@@ -12,7 +12,7 @@
 
 .changeColor{
   transition: .7s ease-in-out;
-  background: $fc-white;
+  background: $fc-orange;
   box-shadow: 2px 2px 20px 0px $fc-orange;
   a{
     color:$fc-black;
@@ -32,6 +32,7 @@
   .logo{
     transition: .7s ease-in-out;
     color:transparent;
+    text-shadow: none;
   }
 }
 
@@ -221,6 +222,7 @@
 
     
 @media only screen and (max-width: 1000px) {
+
   .logo{
     position: unset;
   }
