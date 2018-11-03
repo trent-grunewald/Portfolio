@@ -44,6 +44,10 @@
       transform: rotate(-20deg);
     }
 
+    .sexy-picSmall{
+      display: none;
+    }
+
     
 
       .about-intro{
@@ -72,7 +76,7 @@
       }
 
       .description-container{
-        width: 60%;
+        width: 40%;
     }
   }
 }
@@ -94,6 +98,44 @@
         }
       }
     }
+  }
+
+  @media only screen and (max-width: 1630px) {
+    .about-body .about-me .sexy-pic{
+    transform: rotate(0);
+  }
+}
+  @media only screen and (max-width: 1430px) {
+    .about-body .about-me .me{
+    left:-90;
+  }
+}
+  @media only screen and (max-width: 1365px) {
+    .about .coffee{
+    display: none;
+  }
+
+
+  .about-body .about-me {
+    .description-container {
+      width: 80%;
+     }
+  
+  .me{ 
+  position: unset;
+
+  .sexy-pic{
+    display:none;
+  }
+  .sexy-picSmall{
+    display: unset;
+    position: unset;
+    height: 350px;
+    border: 3px solid #cf653c;
+    border-radius: 5px;
+    }
+  }
+}
   }
 
 

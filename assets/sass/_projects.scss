@@ -1,6 +1,14 @@
 .projects{
   background: #f2f2f2;;
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+    .controller{
+      position: absolute;
+      transform: rotate(-45deg);
+      right: -300;
+      top: 300;
+    }
 
   .projects-body{
     display: grid;
@@ -50,7 +58,7 @@
         .project-title{
           text-align: center;
           font-size: 2em;
-          color: $fc-gray;
+          color: $fc-orange;
           margin-bottom: .5em;
         }
 
@@ -89,12 +97,11 @@
           button{
             border: none;
             padding: 10px;
-            border-radius: 50px;
-            background: linear-gradient(50deg, #00d7fe,#0067a9);
+            border-radius: 5px;
+            background: #cf653c;
             text-align: center;
-            margin: 10px;
-            -ms-flex-positive: 1;
             flex-grow: 1;
+            margin: 5% 2%;
 
           a{
             text-decoration: none;

@@ -7,6 +7,7 @@
   font-family: 'Permanent Marker', cursive;
   color: $fc-orange;
   font-size: 1.5em;
+  text-shadow: 1px 1px black;
 }
 
 .changeColor{
@@ -43,7 +44,7 @@
     width: 100%;
     z-index: 777;
     background: #f2f2f2;
-    box-shadow: 0 0 7px 0px #0cbfef7a;
+    box-shadow: 0 0 10px #cf653c;
 
   .social-nav{
     display: none;
@@ -192,33 +193,11 @@
       margin-right: auto;
     }
 
-    @media only screen and (max-width: 1660px) {
-      .landing-body{
-        top: 45%;
-
-        .name{
-          font-size: 4em;
-        }
-
-        .web{
-          font-size: 2em;
-        }
-      }
+    @media only screen and (max-width: 1120px) {
+      .landing .landing-body {
+        padding: 0 20%;
     }
-
-    @media only screen and (max-width: 1400px) {
-      .landing-body{
-        top: 40%;
-
-        .name{
-          font-size: 3em;
-        }
-
-        .web{
-          font-size: 1.75em;
-        }
-      }
-    }
+  }
 
     @media only screen and (max-width: 1200px) {
       .nav{
@@ -308,6 +287,16 @@
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
       }
+    }
+  }
+
+  @media only screen and (max-width: 710px) {
+  .landing .landing-body {
+    padding: 0 5%;
+
+    .name{
+      font-size: 1.5em;
+    }
     }
   }
 
