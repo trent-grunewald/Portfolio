@@ -69,6 +69,8 @@
   about.addEventListener('click', function(){
     smoothScroll('#about',1000);
   })
+
+  //FOR LOOP TO TARGET ALL PROJECT LINKS
   const projects = document.querySelectorAll('.projectsTarget');
   for (let i = 0; i < projects.length; i++) {
     let myProjects = projects[i]
