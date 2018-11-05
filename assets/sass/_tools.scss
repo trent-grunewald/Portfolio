@@ -1,5 +1,6 @@
 .tools{ 
 position: relative;
+overflow: hidden;
 
 .coffeeStain{
   position: absolute;
@@ -28,6 +29,17 @@ position: relative;
     img{
       height: 300px;
     }
+  }
+  
+  .mePicture{
+    position: absolute;
+    right: -110;
+    bottom: 350;
+    transform: rotate(20deg);
+  }
+
+  img{
+    height: 500px;
   }
 }
 
@@ -82,6 +94,9 @@ position: relative;
     }
       .coffeeSplatter{
         display: none;
+    }
+    .mePicture{
+      display: none;
     }
   }
 }
