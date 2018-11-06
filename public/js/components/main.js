@@ -93,32 +93,38 @@
 
   function scrollColor(){
     const navColor = document.querySelector('.nav');
-    const thTest = document.querySelector('.scrollHome');
+    const hidden = document.querySelector('.scrollHome');
     
 
     window.onscroll = function(){
       if(scrollTop > 72) {
         navColor.classList.addClass('changeColor')
+        hidden.classList.addClass('arrowContainer')
       }
       if(scrollTop < 72) {
         navColor.removeClass('changeColor')
-        console.log(thTest);
+        hidden.removeClass('arrowContainer')
       }
     }
   }
 
-  console.log(thTest)
 
   const navColor = document.querySelector('.nav');
+  const hidden = document.querySelector('.scrollHome');
+
   window.onscroll =_=>{ 
       "use strict";
       if (document.body.scrollTop >= 200 ) {
           navColor.classList.add("changeColor");
           navColor.classList.remove("navBack");
+          hidden.classList.add('arrowDisplay');
+          hidden.classList.remove('arrowHidden');
       } 
       else {
           navColor.classList.remove("changeColor");
           navColor.classList.add("navBack");
+          hidden.classList.remove('arrowDisplay');
+          hidden.classList.add('arrowHidden');
       }
   };
 
