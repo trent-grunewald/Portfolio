@@ -89,25 +89,11 @@
   contact.addEventListener('click', function(){
     smoothScroll('#contact', 1000);
   })
-  
 
-  function scrollColor(){
-    const navColor = document.querySelector('.nav');
-    const hidden = document.querySelector('.scrollHome');
-    
+// ------------------------END SMOOTH SCROLL
 
-    window.onscroll = function(){
-      if(scrollTop > 72) {
-        navColor.classList.addClass('changeColor')
-        hidden.classList.addClass('arrowContainer')
-      }
-      if(scrollTop < 72) {
-        navColor.removeClass('changeColor')
-        hidden.removeClass('arrowContainer')
-      }
-    }
-  }
 
+// ---------------NAV LOGO AND ARROW ON SCROLL
 
   const navColor = document.querySelector('.nav');
   const hidden = document.querySelector('.scrollHome');
@@ -127,6 +113,8 @@
           hidden.classList.add('arrowHidden');
       }
   };
+
+  // ---------------------------------END
 
 //CRABBY CAT FOOTER CLICK ---- THE MOST IMPORTANT PART OF THE PORTFOLIO!
   const footerClick = document.getElementById('what');

@@ -4,6 +4,10 @@
   overflow: hidden;
   box-shadow: 0 0 10px #cf653c;
 
+  .section-container{
+    padding-bottom: 0;
+  }
+
     .controller{
       position: absolute;
       transform: rotate(-45deg);
@@ -13,11 +17,27 @@
 
   .projects-body{
     display: grid;
-    padding: 5% 0%;
+    padding: 150px 0%;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-row-gap: 150px;
     position: relative;
     z-index: 100;
+
+    .bnb{
+      order:4;
+    }
+
+    .brbDesc{
+      order: 3;
+    }
+    
+    .os{
+      order:5;
+    }
+
+    .osDesc{
+      order: 6;
+    }
 
     .project-border{
     border-radius: 5px 0 0 5px;
@@ -121,15 +141,21 @@
       .controller{
           display: none;
         }
-      }
+      
       .projects-body{
       grid-row-gap: 0;
+
+      .bnb{
+        order: unset;
+      }
     }
+  }
   }
 
   @media only screen and (max-width: 520px) {
     .projects .projects-body{
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-row-gap: 50px;
 
       .project-buttons{
         margin-top: 2em;
