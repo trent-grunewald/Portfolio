@@ -25,6 +25,7 @@
   if(window.innerWidth <= 1000) {
       //adds "click" event listener to collapse menu at 1000px
     butt.addEventListener('click', navToggle)
+    return false;
       } else {
     butt.removeEventListener('click', navToggle)
       }
@@ -65,6 +66,11 @@
   }
 
   //YOU ONLY NEED TO CHANGE / ADD TO THESE TO ENABLE IT IN THE PAGE
+  const landing = document.querySelector('.scrollHome');
+  landing.addEventListener('click', function(){
+    smoothScroll('#landing',1000);
+  })
+
   const about = document.querySelector('.aboutTarget');
   about.addEventListener('click', function(){
     smoothScroll('#about',1000);
@@ -83,19 +89,25 @@
   contact.addEventListener('click', function(){
     smoothScroll('#contact', 1000);
   })
-
+  
 
   function scrollColor(){
     const navColor = document.querySelector('.nav');
+    const thTest = document.querySelector('.scrollHome');
+    
+
     window.onscroll = function(){
       if(scrollTop > 72) {
         navColor.classList.addClass('changeColor')
       }
       if(scrollTop < 72) {
         navColor.removeClass('changeColor')
+        console.log(thTest);
       }
     }
   }
+
+  console.log(thTest)
 
   const navColor = document.querySelector('.nav');
   window.onscroll =_=>{ 
