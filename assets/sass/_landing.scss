@@ -140,7 +140,7 @@
       height: 220%;
       transform-origin: top;
       transform: scaleY(0);
-      transition: transform .4s;
+      transition: transform .3s;
       z-index: -1;
     }
     &:hover span{
@@ -216,7 +216,6 @@
       text-align: center;
       
       .name{
-        transition: 2s;
         font-size: 1.75em;
         letter-spacing: 2px;
         color: #f7f7f7;
@@ -235,6 +234,11 @@
       border-radius: 5px;
       margin-top: 3em;
       background: #cf653c;
+      transition: .5s ease-in-out;
+
+      &:hover{
+        box-shadow: 0 0 20px #f2f2f2;
+      }
 
       a{
         color: white;

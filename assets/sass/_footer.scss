@@ -8,6 +8,10 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px #cf653c;
+
+  .year{
+    font-size: .5em;
+  }
 }
 
 #what{
@@ -20,7 +24,7 @@
   }
 
 .crabby-cat{
-  transition: 5s ease-in-out;
+  transition: 1.5s ease-in-out;
   height: 30vh;
   background: url(/img/crabbycat.jpg)center center no-repeat;
   background-size: cover;
@@ -30,4 +34,10 @@
   font-size: 2em;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 680px) {
+#what{
+  display: none;
+  }
 }

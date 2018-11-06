@@ -11,8 +11,10 @@
 
 
   
+  //NAV ONLOAD DETERMINATION
   window.onload =_=>{
   const butt = document.querySelector('.logo');
+  const smallNav = document.querySelector('.nav-container');
       //checks the window size on load  
   if(window.innerWidth <= 1000) {
       //adds the "Click" event listener to collapse menu if the page is less to or equal to 1000 px wide and initiates the navToggle function.
@@ -25,12 +27,15 @@
   if(window.innerWidth <= 1000) {
       //adds "click" event listener to collapse menu at 1000px
     butt.addEventListener('click', navToggle)
+    smallNav.append('<a href="#landing" class="nav-collapse scrollHome">Home</a>')
     return false;
       } else {
     butt.removeEventListener('click', navToggle)
       }
     })
   }
+
+
 
 
   // SMOOTH SCROLL
@@ -90,10 +95,11 @@
     smoothScroll('#contact', 1000);
   })
 
-// ------------------------END SMOOTH SCROLL
 
 
-// ---------------NAV LOGO AND ARROW ON SCROLL
+
+
+// NAV LOGO AND ARROW ON SCROLL
 
   const navColor = document.querySelector('.nav');
   const hidden = document.querySelector('.scrollHome');
@@ -114,7 +120,8 @@
       }
   };
 
-  // ---------------------------------END
+
+  
 
 //CRABBY CAT FOOTER CLICK ---- THE MOST IMPORTANT PART OF THE PORTFOLIO!
   const footerClick = document.getElementById('what');
