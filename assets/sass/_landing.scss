@@ -19,6 +19,7 @@
   right: 50px;
   bottom: 100px;
   z-index: 7;
+  cursor: pointer;
 
 .arrow {
   position: absolute;
@@ -82,7 +83,7 @@
   background: $fc-orange;
   box-shadow: 2px 2px 20px 0px $fc-orange;
   a{
-    color:$fc-black;
+    color:$fc-gray;
   }
   .logo{
     transition: .7s ease-in-out;
@@ -94,7 +95,7 @@
   transition: .4s ease-in-out;
   background:transparent;
   a{
-    color: $fc-gray;
+    color: $fc-white;
   }
   .logo{
     transition: .7s ease-in-out;
@@ -111,8 +112,6 @@
     position: fixed;
     width: 100%;
     z-index: 777;
-    background: #f2f2f2;
-    box-shadow: 0 0 10px #cf653c;
 
   .social-nav{
     display: none;
@@ -121,7 +120,7 @@
   
   .nav-item{
     margin-left: 20%;
-    color: $fc-black;
+    color: $fc-gray;
     text-decoration: none;
     font-weight: 600;
     transition: .5s ease-in-out;
@@ -296,21 +295,25 @@
 
   .logo{
     position: unset;
+    cursor: pointer;
+    transition: .5s ease-in-out;
   }
 
   .nav {
     flex-flow: column wrap;
-    color: $fc-black;
+    color: $fc-gray;
     text-shadow: none;
+    background: none;
+    box-shadow: none;
 
     a {
-      color: $fc-black;
+      color: $fc-gray;
     }
     .nav-item {
       margin:0 1em;
      justify-content: left;
      display: none;
-     color: $fc-black;
+     color: $fc-gray;
     }
 
     .social-nav{
@@ -335,7 +338,7 @@
       display: flex;
       line-height: 4;
       background: $fc-white;
-      color: $fc-black;
+      color: $fc-gray;
       text-decoration: none;
       width: 50%;
       padding-left: 24px;
@@ -349,7 +352,7 @@
         width: 6rem;
         height: 2px;
         top: 2.5em;
-        background-color: $fc-black;
+        background-color: $fc-gray;
         visibility: hidden;
         transform: scaleX(0);
         transition: all 0.4s ease-in-out 0s;

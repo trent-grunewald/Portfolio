@@ -27,7 +27,6 @@
   if(window.innerWidth <= 1000) {
       //adds "click" event listener to collapse menu at 1000px
     butt.addEventListener('click', navToggle)
-    smallNav.append('<a href="#landing" class="nav-collapse scrollHome">Home</a>')
     return false;
       } else {
     butt.removeEventListener('click', navToggle)
@@ -109,19 +108,20 @@
       if (document.body.scrollTop >= 200 ) {
           navColor.classList.add("changeColor");
           navColor.classList.remove("navBack");
+          navColor.style.backgroundColor = "#ebebe9";
+          navColor.style.boxShadow = "0 0 10px #cf653c";
           hidden.classList.add('arrowDisplay');
           hidden.classList.remove('arrowHidden');
       } 
       else {
           navColor.classList.remove("changeColor");
           navColor.classList.add("navBack");
+          navColor.style.backgroundColor = "unset";
+          navColor.style.boxShadow = "none";
           hidden.classList.remove('arrowDisplay');
           hidden.classList.add('arrowHidden');
       }
   };
-
-
-  
 
 //CRABBY CAT FOOTER CLICK ---- THE MOST IMPORTANT PART OF THE PORTFOLIO!
   const footerClick = document.getElementById('what');
