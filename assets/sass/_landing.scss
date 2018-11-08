@@ -42,19 +42,19 @@
 .arrow:after {
  content: '';
  position: absolute;
- top: 0;
+ top: 0px;
  height: 100%;
  width: 50%;
  background: #cf653c;
 }
 
 .arrow:before {
- left: 0;
+ left: 0px;
  transform: skewY(-30deg);
 }
 
 .arrow:after {
- right: 0;
+ right: 0px;
  width: 50%;
  transform: skewY(30deg);
 }
@@ -133,7 +133,7 @@
 
     span{
       position: absolute;
-      top: -12;
+      top: -12px;
       background: $fc-orange;
       width: 35%;
       height: 220%;
@@ -148,7 +148,7 @@
     }
     span:nth-child(1){
       transition-delay:.0s;
-      left:-13;
+      left:-13px;
       border-radius: 5px 0 0 5px;
     }
     span:nth-child(2){
@@ -185,14 +185,6 @@
     
     .fa-github-square{
       color:#333;
-    }
-
-    .fa-instagram{
-      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-      -webkit-background-clip: text;
-       background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-weight: 600;
     }
 
     .fa-envelope{
@@ -275,7 +267,6 @@
         position: fixed;
         width: 100%;
         z-index: 7;
-        background: $fc-white;
       }
       .landing-body{
         top: 35%;

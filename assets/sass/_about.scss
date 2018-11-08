@@ -15,7 +15,7 @@
     }
     .coffeeStain{
       position: absolute;
-      left: -120;
+      left: -120px;
       bottom: -50px;
   
       img{
@@ -30,7 +30,7 @@
   }
 
   .about-body{
-    padding: 2em 0;
+    padding: 2em 0em;
     position: relative;
 
     .about-me{
@@ -66,12 +66,12 @@
       }
 
       .me{
-        padding: 5 0 20 0;
+        padding: 5px 0 20px 0;
         font-size: .65em;
         color: $fc-orange;
         position: absolute;
-        left: -50;
-        top: 50;
+        left: -50px;
+        top: 50px;
         z-index: -1;
       }
 
@@ -88,7 +88,7 @@
       .about-body{
         .about-intro{
           text-align: center;
-          margin: .25em 0;
+          margin: .25em 0em;
         }
         .about-me{
           .me-description{
@@ -107,7 +107,7 @@
 }
   @media only screen and (max-width: 1430px) {
     .about-body .about-me .me{
-    left:-90;
+    left:-90px;
   }
 }
   @media only screen and (max-width: 1365px) {
@@ -144,7 +144,7 @@
         width: 100%;
           .description-container {
             width: 100%;
-            margin: 3em 0;
+            margin: 3em 0em;
             border-radius: 10px;
             padding: 0%;
             .about-intro{

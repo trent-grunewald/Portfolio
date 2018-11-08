@@ -14,7 +14,6 @@
   //NAV ONLOAD DETERMINATION
   window.onload =_=>{
   const butt = document.querySelector('.logo');
-  const smallNav = document.querySelector('.nav-container');
       //checks the window size on load  
   if(window.innerWidth <= 1000) {
       //adds the "Click" event listener to collapse menu if the page is less to or equal to 1000 px wide and initiates the navToggle function.
@@ -93,7 +92,6 @@
   contact.addEventListener('click', function(){
     smoothScroll('#contact', 1000);
   })
-
 
 
 

@@ -4,8 +4,8 @@ overflow: hidden;
 
 .coffeeStain{
   position: absolute;
-  top: 50;
-  left: 50;
+  top: 50px;
+  left: 50px;
 
   img{
     height: 200px;
@@ -16,7 +16,7 @@ overflow: hidden;
   top: 45%;
   height: 500px;
   position: absolute;
-  left: 50;
+  left: 50px;
 
   img{
     height: 700px;
@@ -24,8 +24,8 @@ overflow: hidden;
 }
   .coffeeSplatter{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
+    right: 0px;
     img{
       height: 300px;
     }
@@ -33,8 +33,8 @@ overflow: hidden;
   
   .mePicture{
     position: absolute;
-    right: -110;
-    bottom: 350;
+    right: -110px;
+    bottom: 350px;
     transform: rotate(20deg);
   }
 
@@ -50,7 +50,7 @@ overflow: hidden;
       display: grid;
       -ms-flex-flow: row;
       grid-gap: 10px;
-      padding: 10em 0 5em 0;
+      padding: 10em 0em 5em 0em;
       grid-template-rows: auto(3,1fr);
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         .title{
