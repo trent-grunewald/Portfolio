@@ -9,8 +9,6 @@
     collapsed.forEach(nav => nav.classList.replace('nav-collapse', 'nav-item'));
   }
 
-
-  
   //NAV ONLOAD DETERMINATION
   window.onload =_=>{
   const butt = document.querySelector('.logo');
@@ -103,7 +101,7 @@
 
   window.onscroll =_=>{ 
       "use strict";
-      if (document.body.scrollTop >= 200 ) {
+      if (document.body.scrollTop >= 200 || document.documentElement.scrollTop > 200 ) {
           navColor.classList.add("changeColor");
           navColor.classList.remove("navBack");
           navColor.style.backgroundColor = "#ebebe9";
