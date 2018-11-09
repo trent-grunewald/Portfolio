@@ -2,33 +2,56 @@
 position: relative;
 overflow: hidden;
 
-.coffeeStain{
+.coffeeRing{
   position: absolute;
   top: 50px;
   left: 50px;
-
   img{
+    opacity: 0;
+    transition: 5s ease-in-out;
     height: 200px;
   }
 }
+    .coffeeRingShow{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      img{
+        opacity: 1;
+        transition: 5s ease-in-out;
+        height: 200px;
+    }
+  }
 
 .coffeeDrops{
   top: 45%;
   height: 500px;
   position: absolute;
   left: 50px;
+  transition: 8s ease-in-out;
 
   img{
     height: 700px;
   }
 }
+
+.cdHidden{
+  opacity: 0;
+}
+
   .coffeeSplatter{
     position: absolute;
     bottom: 0px;
     right: 0px;
+    transition: 10s ease-in-out;
+
     img{
       height: 300px;
     }
+  }
+
+  .splatterHidden{
+    opacity: 0;
   }
   
   .mePicture{
