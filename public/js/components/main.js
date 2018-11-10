@@ -93,7 +93,16 @@
 
 
 
-
+  var shanghai = {
+    population: 14.35e6,
+    longitude: '31.2000 N',
+    latitude: '121.5000 E',
+    country: 'CHN'
+  };
+  
+  for (var prop in shanghai){
+   console.log(prop, ':', shanghai[prop]); 
+  }
 
 
 
@@ -102,26 +111,16 @@
 // NAV LOGO SLIDE-INS and ARROW ON SCROLL
   const navColor = document.querySelector('.nav');
   const hidden = document.querySelector('.scrollHome');
-  const me = document.querySelector('.meHidden');
-  const coffeeRing = document.querySelector('.coffeeRing');
-  const coffeeDrops = document.querySelector('.coffeeDrops');
-  const coffeeSplatter = document.querySelector('.coffeeSplatter');
 
   window.onscroll =_=>{ 
       "use strict";
       if (document.body.scrollTop >= 200 || document.documentElement.scrollTop > 200 ) {
           navColor.classList.add("changeColor");
           navColor.classList.remove("navBack");
-          me.classList.replace("meHidden", "meDisplay");
           navColor.style.backgroundColor = "#ebebe9";
           navColor.style.boxShadow = "0 0 10px #cf653c";
           hidden.classList.add('arrowDisplay');
           hidden.classList.remove('arrowHidden');
-      } 
-      if (document.body.scrollTop >= 300 || document.documentElement.scrollTop > 300 ) {
-          coffeeRing.classList.replace("coffeeRing", "coffeeRingShow");
-          coffeeDrops.classList.remove("cdHidden");
-          coffeeSplatter.classList.remove("splatterHidden");
       } 
       else {
           navColor.classList.remove("changeColor");

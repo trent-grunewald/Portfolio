@@ -36,8 +36,6 @@
       display: none;
     }
 
-    
-
       .about-intro{
         span{
           color: $fc-white;
@@ -53,21 +51,11 @@
         padding: 1em;
       }
 
-      .meHidden{
-        position: absolute;
-        left: -680px;
-        opacity: 0;
-        transition: .95s ease-in-out;    
-      }
-      .meDisplay{
-        transition: .95s ease-in-out;   
+      .me{
         padding: 5px 0 20px 0;
-        font-size: .65em;
-        color: $fc-orange;
         position: absolute;
         left: -50px;
         top: 50px;
-        z-index: -1;
 
         .sexy-pic{
           height: 450px;
@@ -101,7 +89,7 @@
   }
 
   @media only screen and (max-width: 1630px) {
-    .about-body .about-me .sexy-pic{
+    .about-body .about-me .me .sexy-pic{
     transform: rotate(0);
   }
 }

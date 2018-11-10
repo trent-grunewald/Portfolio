@@ -6,20 +6,8 @@ overflow: hidden;
   position: absolute;
   top: 50px;
   left: 50px;
-  img{
-    opacity: 0;
-    transition: 5s ease-in-out;
+   img{
     height: 200px;
-  }
-}
-    .coffeeRingShow{
-      position: absolute;
-      top: 50px;
-      left: 50px;
-      img{
-        opacity: 1;
-        transition: 5s ease-in-out;
-        height: 200px;
     }
   }
 
@@ -35,34 +23,14 @@ overflow: hidden;
   }
 }
 
-.cdHidden{
-  opacity: 0;
-}
-
   .coffeeSplatter{
     position: absolute;
     bottom: 0px;
     right: 0px;
-    transition: 10s ease-in-out;
 
     img{
       height: 300px;
     }
-  }
-
-  .splatterHidden{
-    opacity: 0;
-  }
-  
-  .mePicture{
-    position: absolute;
-    right: -110px;
-    bottom: 350px;
-    transform: rotate(20deg);
-  }
-
-  img{
-    height: 500px;
   }
 }
 
@@ -79,18 +47,14 @@ overflow: hidden;
         .title{
           font-size: 2em;
           padding: 1% 0;
-          margin: 20px 0;
         }
       }
     }
   
 
     .experiences{
-      text-align: center;
-      font-weight: 500;
       line-height: 1.5;
       padding: .5%;
-      border-radius: 5px;
     }
   
 

@@ -1,7 +1,5 @@
 .projects{
-  background: #f2f2f2;;
-  position: relative;
-  overflow: hidden;
+  background: #f2f2f2;
   box-shadow: 0 0 10px #cf653c;
 
   .section-container{
@@ -13,8 +11,6 @@
     padding: 150px 0%;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-row-gap: 150px;
-    position: relative;
-    z-index: 100;
 
     .bnb{
       order:4;
@@ -60,7 +56,6 @@
     .project{
       padding: 5%;
       height: 400px;
-      position: relative;
     }
 
       .project-description{
@@ -91,7 +86,9 @@
           p{
             border-radius: 10px;
             padding: 1px 10px;
-            color: $fc-gray;
+            color: $fc-white;
+            background: $fc-gray;
+            margin: 5px;
         
         img{
           text-align: center;
@@ -150,14 +147,22 @@
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       grid-row-gap: 50px;
 
+      .project{
+        height: auto;
+      }
+
       .project-buttons{
         margin-top: 2em;
 
         button{
         display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 5px;
         width: 100%;
+
+        a{
+          letter-spacing: 0;
+        }
       }
     }
   }    
