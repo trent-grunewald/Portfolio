@@ -28,6 +28,14 @@
       order: 6;
     }
 
+    .bl{
+      order: 8;
+    }
+    
+    .blDesc{
+      order: 7;
+    }
+
     .project-border{
     border-radius: 5px 0 0 5px;
 
@@ -137,6 +145,10 @@
 
       .bnb{
         order: unset;
+      }
+
+      .blDesc{
+        order: 8;
       }
     }
   }
