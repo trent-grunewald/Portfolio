@@ -28,12 +28,19 @@
       order: 6;
     }
 
-    .bl{
+    .he{
       order: 8;
     }
     
-    .blDesc{
+    .heDesc{
       order: 7;
+    }
+    .bl{
+      order: 9;
+    }
+    
+    .blDesc{
+      order: 10;
     }
 
     .project-border{
@@ -147,7 +154,7 @@
         order: unset;
       }
 
-      .blDesc{
+      .heDesc{
         order: 8;
       }
     }

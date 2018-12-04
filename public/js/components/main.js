@@ -93,21 +93,6 @@
 
 
 
-  var shanghai = {
-    population: 14.35e6,
-    longitude: '31.2000 N',
-    latitude: '121.5000 E',
-    country: 'CHN'
-  };
-  
-  for (var prop in shanghai){
-   console.log(prop, ':', shanghai[prop]); 
-  }
-
-
-
-
-
 // NAV LOGO SLIDE-INS and ARROW ON SCROLL
   const navColor = document.querySelector('.nav');
   const hidden = document.querySelector('.scrollHome');
